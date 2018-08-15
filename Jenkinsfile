@@ -1,6 +1,6 @@
 node ('master') {
   checkout scm
   stage('Build') {
-  sh'echo "HEXTRIM"'
+  sh'echo "HEXTRIM FEATURE"'
   }
 }
